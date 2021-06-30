@@ -15,7 +15,7 @@
 
       const letter = 'https://jsonplaceholder.typicode.com/posts'
 
-      console.log(`${proxy}${api}`)
+      console.log(`${proxy}${letter}`)
       fetch(`${proxy}${api}`)
          .then(res => res.json())
          .then(data => console.log(data))
